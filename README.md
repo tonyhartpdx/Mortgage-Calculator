@@ -41,7 +41,7 @@ Numbers
 
 [**Binary to Decimal and Back Converter**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-**Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+[**Calculator**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
 **Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
