@@ -14,9 +14,9 @@ Some details:
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
-To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://github.com/desertwebdesigns/learn_python/blob/master/README-scratch.md) to *README.md*.
+To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/README-scratch.md) to *README.md*.
 
-Thanks to [thekarangoel](https://github.com/thekarangoel) who I took this idea from to help myself learn Python.
+Thanks to [thekarangoel](https://github.com/karan) who I took this idea from to help myself learn Python.
 
 More projects avaialable at [projecteuler.net](http://projecteuler.net) and the [dailyprogrammer subreddit.](http://www.reddit.com/r/dailyprogrammer/)
 
@@ -25,25 +25,25 @@ More projects avaialable at [projecteuler.net](http://projecteuler.net) and the 
 Numbers
 ---------
 
-[**Find PI to the Nth Digit**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+[**Find PI to the Nth Digit**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
-[**Fibonacci Sequence**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+[**Fibonacci Sequence**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-[**Prime Factorization**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+[**Prime Factorization**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-[**Next Prime Number**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
+[**Next Prime Number**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-[**Find Cost of Tile to Cover W x H Floor**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+[**Find Cost of Tile to Cover W x H Floor**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-[**Mortgage Calculator**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/mortgage.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
+[**Mortgage Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/mortgage.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
-[**Change Return Program**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+[**Change Return Program**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
-[**Binary to Decimal and Back Converter**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+[**Binary to Decimal and Back Converter**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-[**Calculator**](https://github.com/desertwebdesigns/learn_python/blob/master/numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+[**Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
-**Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+[**Unit Converter (temp, currency, volume, mass and more)**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/unit_convert.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
 **Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 

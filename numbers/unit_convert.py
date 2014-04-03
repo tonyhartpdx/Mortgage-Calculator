@@ -4,9 +4,46 @@ the type of unit being entered, the type of unit they want to
 convert to and then the value. The program will then make the
 conversion."""
 
-import os
+import os, json
+from urllib2 import urlopen
 
 os.system('clear')
+
+CONVERT_TO = {
+    'volume': {
+            'tsp': 48,
+            'tbsp': 16,
+            'c': 1,
+            'q': .25,
+            'p': .5,
+            'gal': .0625,
+            'oz': 8
+        },
+    'mass': {
+            'g': 453.59,
+            'oz': 16,
+            'lb': 1,
+            'kg': 0.45359
+        }
+}
+
+CONVERT_FROM = {
+    'volume': {
+            'tsp': .015625,
+            'tbsp': .0625,
+            'c': 1,
+            'q': 4, 
+            'p': 2, 
+            'gal': 16,
+            'oz': .125
+        },
+    'mass': {
+            'g': .0022046,
+            'oz': .0625,
+            'lb': 1,
+            'kg': 2.2406
+        }
+}
 
 def temp():
 	print """\n1: Celsius to Fahrenheit
@@ -48,30 +85,43 @@ def temp():
 
 	print "Value: " + str(result) + ' ' + unit
 
-def volume():
-	return true
-
-def mass():
-	return true
+def do_convert(conversion):
+    conversion_units = ','.join(CONVERT_FROM[conversion].keys())
+    amount = float(raw_input("Enter conversion amount:"))
+    source_unit = raw_input("Enter source unit (%s):" % conversion_units)
+    to_unit = raw_input("Enter unit to convert to (%s):" % conversion_units)
+    
+    print "%s %s's equals %f %s's" % (amount, source_unit, 
+            amount * \
+            CONVERT_FROM[conversion][source_unit] * \
+            CONVERT_TO[conversion][to_unit],
+            to_unit)
 
 def currency():
-	return true
+    amount = str(raw_input("Enter amount to convert: "))
+    from_currency = str(raw_input("Enter your source currency (3 digit code): "))
+    to_currency = str(raw_input("Enter the currence you would like to convert to (3 digit code): "))
+
+    request = urlopen('http://rate-exchange.appspot.com/currency?from=' + from_currency + '&to=' + to_currency + '&q=' + amount)
+    response = json.loads(request.read())
+
+    print "%s %s is equal to %f %s" % (amount, from_currency, float(response['v']), to_currency)
 
 
 print """1: Temperature
 2: Volume
 3: Mass
-4; Currency"""
+4: Currency"""
 
 input = input("Enter conversion type: ")
 
 if input == 1:
-	temp()
+    temp()
 elif input == 2:
-	volume()
+    do_convert('volume')
 elif input == 3:
-	mass()
+    do_convert('mass')
 elif input == 4:
-	currency()
+    currency()
 else:
 	print "Invalid selection"
