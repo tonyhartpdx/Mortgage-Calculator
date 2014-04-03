@@ -124,4 +124,4 @@ elif input == 3:
 elif input == 4:
     currency()
 else:
-	print "Invalid selection"
+    print "Invalid selection"
