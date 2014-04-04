@@ -20,9 +20,11 @@ Thanks to [thekarangoel](https://github.com/karan) who I took this idea from to 
 
 More projects avaialable at [projecteuler.net](http://projecteuler.net) and the [dailyprogrammer subreddit.](http://www.reddit.com/r/dailyprogrammer/)
 
+I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/ProjectEuler) folder for solutions to problems found on [projecteuler.net](http://projecteuler.net)
+
 ==============================
 
-Numbers
+[Numbers](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Numbers)
 ---------
 
 [**Find PI to the Nth Digit**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
@@ -63,7 +65,7 @@ Numbers
 
 **Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
-Classic Algorithms
+[Classic Algorithms](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/ClassicAlgorithms)
 -----------------
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
@@ -74,7 +76,7 @@ Classic Algorithms
 
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
-Graphs
+[Graphs](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Graphs)
 ---------
 
 **Graph from links** - Create a program that will create a graph or network from a series of links.
@@ -85,13 +87,13 @@ Graphs
 
 **Dijkstra.s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
 
-Data Structures
+[Data Structures](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/DataStructures)
 ---------
 
 **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
 
-Text
+[Text](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Text)
 ---------
 
 **Reverse a String** - Enter a string and the program will reverse it and print it out.
@@ -129,7 +131,7 @@ Text
 
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
 
-Networking
+[Networking]((https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Networking)
 ---------
 
 **FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
@@ -162,7 +164,7 @@ Networking
 
 **Web Bot** - An automated program which carries out tasks on the web including checking websites, page scraping, and summarization of data or web posting.
 
-Classes
+[Classes](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Classes)
 ---------
 
 **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
@@ -199,7 +201,7 @@ Classes
 
 **Family Tree Creator** - Create a class called "Person" which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
 
-Threading
+[Threading](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Threading)
 ---------
 
 **Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
@@ -210,7 +212,7 @@ Threading
 
 **Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
-Web
+[Web](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Web)
 ---------
 
 **WYSIWG (What you see is what you get) Editor** - Create an editor online which allows people to move around elements, create tables, write text, set colors etc for web pages without having to know HTML. Think Dreamweaver or FrontPage but for online sites. If you need an example check out the DIC page used to create a post.
@@ -245,7 +247,7 @@ Web
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms. If you use PHP, take a look at the image functions of GD.
 
-Files
+[Files](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Files)
 ---------
 
 **Quiz Maker** - Make an application which takes various questions form a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
@@ -280,7 +282,7 @@ Files
 
 **Versioning Manager** - Create your own versioning system for code files. Users are forced to check out items and lock items during reading and writing so that a group of programmers are not accidentally overwriting code files on one another.
 
-Databases
+[Databases](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Databases)
 ---------
 
 **SQL Query Analyzer** - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
@@ -309,7 +311,7 @@ Databases
 
 **Web Board (Forum)** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
 
-Graphics and Multimedia
+[Graphics and Multimedia](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/GraphicsAndMultimedia)
 ---------
 
 **Slide Show** - Make an application that shows various pictures in a slide show format. For extra complexity try adding various effects like fade in/out, star wipe and window blinds transitions.
@@ -346,7 +348,7 @@ Graphics and Multimedia
 
 **Turtle Graphics** - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. For added complexity, allow the program to read in the list of commands from a file. Do a search online for "Turtle Graphics" for more information.
 
-Games
+[Games](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Games)
 ---------
 
 **Battleship** - Create two game boards and let each player place a number of war ships. Each player can.t see the other person.s board. They then take turns firing at one another by guessing one of the board squares. If the square they guess contains part of a ship, it is a hit. Otherwise it is a miss. They sink a ship when all squares containing that particular ship have been uncovered. The player wins when all their opponents. ships have been sunk.
@@ -359,7 +361,7 @@ Games
 
 **Frogger** - Get your frog across the river and lanes of traffic by either jumping on logs and lily pads rushing by at different speeds or avoid the automobiles which are also moving at various speeds. Based on the old arcade game.
 
-Security
+[Security](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Security)
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
