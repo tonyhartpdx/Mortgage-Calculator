@@ -14,38 +14,38 @@ Some details:
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
-To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/README-scratch.md) to *README.md*.
+To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://bitbucket.org/desertwebdesigns/learn_python/src/master/README-scratch.md) to *README.md*.
 
 Thanks to [thekarangoel](https://github.com/karan) who I took this idea from to help myself learn Python.
 
 More projects avaialable at [projecteuler.net](http://projecteuler.net) and the [dailyprogrammer subreddit.](http://www.reddit.com/r/dailyprogrammer/)
 
-I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/ProjectEuler) folder for solutions to problems found on [projecteuler.net](http://projecteuler.net)
+I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_python/src/master/ProjectEuler) folder for solutions to problems found on [projecteuler.net](http://projecteuler.net)
 
 ==============================
 
-[Numbers](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Numbers)
+[Numbers](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers)
 ---------
 
-[**Find PI to the Nth Digit**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+[**Find PI to the Nth Digit**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
-[**Fibonacci Sequence**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+[**Fibonacci Sequence**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-[**Prime Factorization**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+[**Prime Factorization**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-[**Next Prime Number**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
+[**Next Prime Number**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-[**Find Cost of Tile to Cover W x H Floor**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+[**Find Cost of Tile to Cover W x H Floor**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-[**Mortgage Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/mortgage.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
+[**Mortgage Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/mortgage.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
-[**Change Return Program**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+[**Change Return Program**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
-[**Binary to Decimal and Back Converter**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+[**Binary to Decimal and Back Converter**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-[**Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+[**Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
-[**Unit Converter (temp, currency, volume, mass and more)**](https://bitbucket.org/desertwebdesigns/learn_python/src/70cc4bd7a612e0eade6bdeb34f20203d026dafde/numbers/unit_convert.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+[**Unit Converter (temp, currency, volume, mass and more)**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/unit_convert.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
 **Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
@@ -55,8 +55,6 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
-**Dijkstra's Algorithm** - Create a program that finds the shortest path through a graph using its edges.
-
 **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
 **Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Take an input number from user, and find first 8 happy numbers from that input.
@@ -65,7 +63,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
-[Classic Algorithms](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/ClassicAlgorithms)
+[Classic Algorithms](https://bitbucket.org/desertwebdesigns/learn_python/src/master/ClassicAlgorithms)
 -----------------
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
@@ -76,7 +74,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
-[Graphs](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Graphs)
+[Graphs](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Graphs)
 ---------
 
 **Graph from links** - Create a program that will create a graph or network from a series of links.
@@ -85,15 +83,15 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
 
-**Dijkstra.s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+**Dijkstra's Algorithm** - Create a program that finds the shortest path through a graph using its edges.
 
-[Data Structures](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/DataStructures)
+[Data Structures](https://bitbucket.org/desertwebdesigns/learn_python/src/master/DataStructures)
 ---------
 
 **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
 
-[Text](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Text)
+[Text](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Text)
 ---------
 
 **Reverse a String** - Enter a string and the program will reverse it and print it out.
@@ -129,9 +127,9 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **CD Key Generator** - Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
 
-**Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
+**Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
-[Networking]((https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Networking)
+[Networking](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Networking)
 ---------
 
 **FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
@@ -164,7 +162,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Web Bot** - An automated program which carries out tasks on the web including checking websites, page scraping, and summarization of data or web posting.
 
-[Classes](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Classes)
+[Classes](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Classes)
 ---------
 
 **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
@@ -201,7 +199,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Family Tree Creator** - Create a class called "Person" which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
 
-[Threading](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Threading)
+[Threading](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Threading)
 ---------
 
 **Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
@@ -212,7 +210,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
-[Web](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Web)
+[Web](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Web)
 ---------
 
 **WYSIWG (What you see is what you get) Editor** - Create an editor online which allows people to move around elements, create tables, write text, set colors etc for web pages without having to know HTML. Think Dreamweaver or FrontPage but for online sites. If you need an example check out the DIC page used to create a post.
@@ -247,7 +245,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms. If you use PHP, take a look at the image functions of GD.
 
-[Files](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Files)
+[Files](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Files)
 ---------
 
 **Quiz Maker** - Make an application which takes various questions form a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
@@ -282,7 +280,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Versioning Manager** - Create your own versioning system for code files. Users are forced to check out items and lock items during reading and writing so that a group of programmers are not accidentally overwriting code files on one another.
 
-[Databases](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Databases)
+[Databases](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Databases)
 ---------
 
 **SQL Query Analyzer** - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
@@ -311,7 +309,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Web Board (Forum)** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
 
-[Graphics and Multimedia](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/GraphicsAndMultimedia)
+[Graphics and Multimedia](https://bitbucket.org/desertwebdesigns/learn_python/src/master/GraphicsAndMultimedia)
 ---------
 
 **Slide Show** - Make an application that shows various pictures in a slide show format. For extra complexity try adding various effects like fade in/out, star wipe and window blinds transitions.
@@ -348,7 +346,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Turtle Graphics** - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. For added complexity, allow the program to read in the list of commands from a file. Do a search online for "Turtle Graphics" for more information.
 
-[Games](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Games)
+[Games](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Games)
 ---------
 
 **Battleship** - Create two game boards and let each player place a number of war ships. Each player can.t see the other person.s board. They then take turns firing at one another by guessing one of the board squares. If the square they guess contains part of a ship, it is a hit. Otherwise it is a miss. They sink a ship when all squares containing that particular ship have been uncovered. The player wins when all their opponents. ships have been sunk.
@@ -361,7 +359,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Frogger** - Get your frog across the river and lanes of traffic by either jumping on logs and lily pads rushing by at different speeds or avoid the automobiles which are also moving at various speeds. Based on the old arcade game.
 
-[Security](https://bitbucket.org/desertwebdesigns/learn_python/src/e95a6c0f6526b422df149347866085eb740d961b/Security)
+[Security](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Security)
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
