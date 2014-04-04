@@ -27,25 +27,25 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 [Numbers](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers)
 ---------
 
-[**Find PI to the Nth Digit**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+[**Find PI to the Nth Digit**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
-[**Fibonacci Sequence**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+[**Fibonacci Sequence**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-[**Prime Factorization**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+[**Prime Factorization**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-[**Next Prime Number**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
+[**Next Prime Number**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-[**Find Cost of Tile to Cover W x H Floor**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+[**Find Cost of Tile to Cover W x H Floor**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-[**Mortgage Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/mortgage.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
+[**Mortgage Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/mortgage.py) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
-[**Change Return Program**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+[**Change Return Program**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
-[**Binary to Decimal and Back Converter**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+[**Binary to Decimal and Back Converter**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/binary_decimal_convert.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-[**Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+[**Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/calculator.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
-[**Unit Converter (temp, currency, volume, mass and more)**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/numbers/unit_convert.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+[**Unit Converter (temp, currency, volume, mass and more)**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/unit_convert.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
 **Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
