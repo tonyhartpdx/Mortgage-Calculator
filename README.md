@@ -53,7 +53,7 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 
 **Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
-**Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+[**Tax Calculator**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/Numbers/tax.py) - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
 **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
