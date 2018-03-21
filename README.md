@@ -66,7 +66,8 @@ I have added a [ProjectEuler](https://bitbucket.org/desertwebdesigns/learn_pytho
 [Classic Algorithms](https://bitbucket.org/desertwebdesigns/learn_python/src/master/ClassicAlgorithms)
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+[**Collatz
+Conjecture**](https://bitbucket.org/desertwebdesigns/learn_python/src/master/ClassicAlgorithms/collatz.py) - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
