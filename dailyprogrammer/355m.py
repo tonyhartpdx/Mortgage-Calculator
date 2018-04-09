@@ -5,17 +5,6 @@
 https://www.reddit.com/r/dailyprogrammer/comments/87rz8c/20180328_challenge_355_intermediate_possible/
 '''
 
-'''
-1 = Pumpkin, 2 = Apples
-E = eggs, S = Sugar, M = Milk, P = Pies
-Maximize pies: Pp + Pa
-Subject to: 
-    E1*P1 + E2*P2 <= E
-    M1*P1 + M2*P2 <= M
-    S1*P1 + S2*P2 <= S
-    P1 >= 0, P2 >= 0
-'''
-
 import operator
 
 recipes = {
@@ -23,16 +12,7 @@ recipes = {
     'pumpkin': [1,3,4,3]
 }
 
-pies = {
-    'apple': {
-        'max': 0,
-        'poss': 0
-    },
-    'pumpkin': {
-        'max': 0,
-        'poss': 0
-    }
-}
+Amax, Pmax = 0, 0
 
 #The numbers represent the number of synthetic pumpkin flavouring, apples, eggs, milk and sugar 
 inputs = [
@@ -53,18 +33,22 @@ def bake(type, amt):
 
 def maxpies(ing):
 # Determine max pies of each type to be baked from given ingredients list
+    global Amax, Pmax
     a = ing.pop(1)
-    pies['pumpkin']['max'] = min(map(operator.div, ing, recipes['pumpkin']))
+    Pmax = min(map(operator.div, ing, recipes['pumpkin']))
 
     p = ing.pop(0)
     ing.insert(0,a)
-    pies['apple']['max'] = min(map(operator.div, ing, recipes['apple']))
+    Amax = min(map(operator.div, ing, recipes['apple']))
 
 for i in inputs:
+    totalpies = []
     ing = i[:]
     maxpies(i)
-    left = map(operator.sub, ing, bake('pumpkin', pies['pumpkin']['max']))
-    maxpies(left)
-#    print map(operator.sub, i, bake('apple'), pies['apple']['max'])
-#    print pies['pumpkin']['max'], pies['apple']['max']
+    for x in range(Pmax, -1, -1):
+        left = map(operator.sub, ing, bake('pumpkin', x))
+        maxpies(left)
+        if x + Amax > sum(totalpies):
+            totalpies = [x, Amax]
 
+    print "%d Pumpkin Pies and %d Apple pies" % tuple(totalpies)
