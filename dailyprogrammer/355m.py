@@ -8,47 +8,28 @@ https://www.reddit.com/r/dailyprogrammer/comments/87rz8c/20180328_challenge_355_
 import operator
 
 recipes = {
-    'apple': [1,4,3,2],
-    'pumpkin': [1,3,4,3]
+    'apple': [0,1,4,3,2],
+    'pumpkin': [1,0,3,4,3]
 }
 
-Amax, Pmax = 0, 0
-
-#The numbers represent the number of synthetic pumpkin flavouring, apples, eggs, milk and sugar 
-inputs = [
+ingredients = [
     [10,14,10,42,24],
     [12,4,40,30,40],
     [12,14,20,42,24]
 ]
 
-def bake(type, amt):
-# Determine the amount of ingredients used in baking the given amount of pies of each type
-    global pies, recipes
-    used = map(lambda x: x*amt, recipes[type])
-    used = [used[0],0,used[1],used[2],used[3]] if type == 'pumpkin' else \
-        [0,used[0],used[1],used[2],used[3]]
+Amax, Pmax = 0, 0
 
-    return used
-    
+def maxpies(type, ing):
+    pies = [int(i/r) if i and r else 0 for i, r in zip(ing,recipes[type])]
+    return min([p for p, r in zip(pies, recipes[type]) if r])
 
-def maxpies(ing):
-# Determine max pies of each type to be baked from given ingredients list
-    global Amax, Pmax
-    a = ing.pop(1)
-    Pmax = min(map(operator.div, ing, recipes['pumpkin']))
-
-    p = ing.pop(0)
-    ing.insert(0,a)
-    Amax = min(map(operator.div, ing, recipes['apple']))
-
-for i in inputs:
-    totalpies = []
-    ing = i[:]
-    maxpies(i)
+for i in ingredients:
+    totalpies, ing = [], i[:]
+    Pmax, Amax = maxpies('pumpkin',i), maxpies('apple',i)
     for x in range(Pmax, -1, -1):
-        left = map(operator.sub, ing, bake('pumpkin', x))
-        maxpies(left)
-        if x + Amax > sum(totalpies):
-            totalpies = [x, Amax]
+        Amax = maxpies('apple',map(operator.sub, ing, 
+            map(lambda y: x*y, recipes['pumpkin'])))
+        totalpies = [x, Amax] if x + Amax > sum(totalpies) else totalpies
 
     print "%d Pumpkin Pies and %d Apple pies" % tuple(totalpies)
